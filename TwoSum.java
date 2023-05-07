@@ -6,7 +6,7 @@ class TwoSum {
 
         boolean found = false;
         int index = 0;
-        int returnValue[2];
+        int returnValue[] = new int[2];
         HashMap<Integer, Integer> record = new HashMap<Integer, Integer>();
 
         while(!found) {
@@ -24,5 +24,7 @@ class TwoSum {
             }
             index++;   
         }
+
+        return returnValue;
     }
 }
